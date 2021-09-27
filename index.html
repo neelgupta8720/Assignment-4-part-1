@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Customize your T-Shirt</title>
+	<style>
+		body {background-color:orange;}
+		
+		.cloth 
+		img {
+
+				height:500px;
+				width:300px;
+				margin-left:600px;
+
+				}
+
+		.header 
+		h1{
+
+				  color: white;
+  					text-shadow: 2px 2px 4px #000000;
+		}
+
+		h2{
+
+			  color: white;
+  			text-shadow: 2px 2px 4px #ffffff;
+
+		}
+
+		h3{
+
+			  color: white;
+  				text-shadow: 2px 2px 4px #000000;
+		}
+
+		.submit{
+			background-image: linear-gradient(95deg, #60ff22 , #077907  , #062e0c )}
+			   font-size: xx-large;
+		.submit{
+				color: white;            
+				box-shadow: 0 0 20px #eee;
+				border-radius: 10px;
+				display: block;
+				position: relative;
+				cursor:pointer;
+		}
+		.submit:hover 
+		{
+		color: #fff;
+		text-decoration: none;
+		}
+
+		.reset
+		{
+			background-image: linear-gradient(95deg, #60ff22 , #077907  , #062e0c )}
+			   font-size: xx-large;
+		.reset{
+				
+				color: white;            
+				box-shadow: 0 0 20px #eee;
+				border-radius: 10px;
+				display: block;
+				position: relative;
+				cursor:pointer;
+		}
+		.reset:hover 
+		{
+		color: #fff;
+		text-decoration: none;
+		}
+
+
+	</style>
+</head>
+
+<body>
+<form>
+    <div>  
+        <div class="header" align="center"><b><h1>Customize your T-Shirt</b></h1></div>
+		<div class="cloth">
+			<img src="tshirtjpg.jpg"></img>
+		</div>
+		<table align="center" cellpadding="20" cellspacing="50" border="1" style="background-color:rgb(0, 255, 234); border-radius: 50px;">
+
+				<tr>
+					<th colspan="2" align="center" style="border-radius:50px;"><h2 style="color:black;">Product Details</h2></th>
+				</tr>
+
+				<!--------------------- Tagline ------------------------------------------>
+				<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Tagline</h3></td>
+					<td style="border-radius:50px;text-align: center;"><input type="text" name="Tagline" maxlength="2" placeholder="e.g. Mumbaikars" />
+					</td>
+					</tr>
+	
+				<!---------------------- Quantity ------------------------------------->
+				<tr>		
+					<td style="border-radius:50px;text-align: center;"><h3>Quantity</h3></td>
+					<td style="border-radius:50px;text-align: center;"><input type="Number" name="quantity" maxlength="2" placeholder=""/></td>
+				</tr>
+
+				
+				
+				<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Type</h3></td>
+					<td style="border-radius:50px;text-align: center;">
+					<select name="size" style="width:175px;">
+					<option value="X-Small">Round Neck </option>
+					<option value="Small">Polo Neck</option>
+					<option value="Medium">V Neck</option>
+					<option value="Large">Turtle Neck</option>
+					</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Size</h3></td>
+					<td style="border-radius:50px;text-align: center;">
+					<select name="size" style="width:175px;">
+					<option value="X-Small">X-Small   </option>
+					<option value="Small">Small</option>
+					<option value="Medium">Medium</option>
+					<option value="Large">Large</option>
+					<option value="X-Large">X-Large</option>
+					</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Color</h3></td>
+					<td style="border-radius:50px;text-align: center;">
+					<select name="colour" style="width:175px;">
+					<option value="Black">Black</option>
+					<option value="White">White</option>
+					<option value="Red">Red</option>
+					<option value="Yellow">Yellow</option>
+					<option value="Pink">Pink</option>
+					<option value="Grey">Grey</option>
+					<option value="Blue">Blue</option>
+					</select>
+					</td>
+				</tr>
+				<!--------------------------Date Of Birth----------------------------------->
+				<tr>
+					<td style="border-radius:50px;text-align: center;" ><h3>Date</h3></td>
+					<td style="border-radius:50px;text-align: center;">
+					<select name="Day" id="Day">
+					<option value="-1">Day:</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+					</select>
+					
+					
+					<select name="Month" id="Month">
+					<option value="-1">Month:</option>
+					<option value="January">Jan(1)</option>
+					<option value="February">Feb(2)</option>
+					<option value="March">Mar(3)</option>
+					<option value="April">Apr(4)</option>
+					<option value="May">May(5)</option>
+					<option value="June">Jun(6)</option>
+					<option value="July">Jul(7)</option>
+					<option value="August">Aug(8)</option>
+					<option value="September">Sep(9)</option>
+					<option value="October">Oct(10)</option>
+					<option value="November">Nov(11)</option>
+					<option value="December">Dec(12)</option>
+					</select>
+					
+					
+					
+					<select name="BirthdayYear" id="Birthday_Year">
+					<option value="-1">Year:</option>
+					<option value="2019">2019</option>
+					<option value="2018">2018</option>
+					<option value="2017">2017</option>
+					<option value="2016">2016</option>
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2012">2012</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+					<option value="2007">2007</option>
+					<option value="2006">2006</option>
+					<option value="2005">2005</option>
+					<option value="2004">2004</option>
+					<option value="2003">2003</option>
+					<option value="2002">2002</option>
+					<option value="2001">2001</option>
+					<option value="2000">2000</option>
+					<option value="1999">1999</option>
+					<option value="1998">1998</option>
+					<option value="1997">1997</option>
+					<option value="1996">1996</option>
+					<option value="1995">1995</option>
+					<option value="1994">1994</option>
+					<option value="1993">1993</option>
+					</select>
+					</td>
+					</tr>
+	
+
+				<!---------------------- Packaging ------------------------------------->
+				<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Packaing details</h3></td>
+					<td style="border-radius:50px;text-align: center;">
+						<input type="radio" name="pack" value="Self" />
+					Self
+					<input type="radio" name="pack" value="Gift to Someone" />
+					Gift to Someone
+					</td>
+					</tr>
+	
+				
+				
+				
+				<!---------------------- Tagline ------------------------------------->
+				</tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Comments</h3></td>
+					<td style="border-radius:50px;text-align: center;"><textarea  name="tagline" rows="5" cols="50"></textarea></td>
+				</tr>
+			
+				<tr>
+					
+					<th style="border-radius:50px;" colspan="2" align="center"><h2 style="color:black;">Customer Details</h2></th>
+				</tr>
+				
+				<!--------------------- First Name ------------------------------------------>
+				<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Full Name</h3></td>
+					<td style="border-radius:50px;text-align: center;"><input type="text" name="Name" maxlength="3000" placeholder="Enter Name" required />
+					</td>
+				</tr>
+				
+				<!-------------------------- Email ID ------------------------------------->
+				<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Email ID</h3></td>
+					<td style="border-radius:50px;text-align: center;"><input type="email" name="EmailID" maxlength="100" placeholder="Enter Email" required></td>
+				</tr>
+
+
+
+				<!-------------------------- Mobile Number ------------------------------------->
+				<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Phone Number</h3></td>
+					<td style="border-radius:50px;text-align: center;">
+					<input type="text" name="MobileNumber" maxlength="10" placeholder="Enter Phone Number"/>
+					</td>
+				</tr>
+				
+				<!---------------------- Address ------------------------------------->
+				</tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Shipping Address</h3></td>
+					<td style="border-radius:50px;text-align: center;"><textarea  name="address" rows="8" cols="52"></textarea></td>
+				</tr>
+
+				<!-------------------------- City ------------------------------------->
+				<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>City</h3></td>
+					<td style="border-radius:50px;"><input type="text" name="City" maxlength="50" placeholder="Mumbai"/>
+					(Max 50 Characters Allowed)
+					</td>
+					</tr>
+					
+					
+					
+					<!----- -------------------- Pin Code-------------------------------------->
+					<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Pin Code</h3></td>
+					<td style="border-radius:50px;"><input type="Number" name="PinCode" maxlength="6" placeholder="400072"/>
+					(Max 6 Numbers Allowed)
+					</td>
+					</tr>
+					
+					
+					
+					<!---------------------------- State ----------------------------------->
+					<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>State</h3></td>
+					<td style="border-radius:50px;"><input type="text" name="State" maxlength="50" placeholder="Maharashtra"/>
+					(Max 50 Characters Allowed)
+					</td>
+					</tr>
+					
+					
+					<!------------------------------ Country --------------------------------->
+					<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Country</h3></td>
+					<td style="border-radius:50px;text-align: center;"><input type="text" name="Country" placeholder="India" /></td>
+					</tr>
+					
+					<!-------------------------Mode of Payment-------------------------------->
+					<tr>
+					<td style="border-radius:50px;text-align: center;"><h3>Mode of Payment</h3></td>
+					<td style="border-radius:50px;text-align: center;">
+					<input type="radio" name="payment" value="COD" />
+					COD(Cash on Delivery)
+					<input type="radio" name="payment" value="Credit Card" />
+					Credit Card
+					<input type="radio" name="payment" value="Debit Card" />
+					Debit Card
+					<input type="radio" name="payment" value="Net Banking" />
+					Net Banking
+					</td>
+					</tr>
+	
+
+				<!----------------------- Submit and Reset -------------------------------> 
+				<tr>
+					<td style="border-radius:50px;" colspan="2" align="center">
+					<input class="submit" style="border-radius:50px;" type="SUBMIT" value="SUBMIT">
+					<input class="reset" style="border-radius:50px;" type="RESET" value="RESET">
+				</td>
+				</tr>
+	</div>
+</form>
+</table>
+</body>
+</html>
