@@ -28,7 +28,7 @@ function formValidation() {
     if(values[2] == "default")
     {
         alert('Select your size from the list');
-        values[2].focus();
+        values[2];
         return;
     }
 
