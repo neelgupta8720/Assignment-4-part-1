@@ -28,7 +28,7 @@ function formValidation() {
     if(values[2] == "default")
     {
         alert('Select your size from the list');
-        values[2];
+        values[2].focus();
         return;
     }
 
@@ -69,17 +69,6 @@ function formValidation() {
             return;
         }
 
-
-
-
-    // document.getElementById("tagline").value = "";
-    // var ele = document.getElementsByName("color");
-    // for (var i = 0; i < ele.length; i++) ele[i].checked = false;
-    // document.getElementById("name").value = "";
-    // document.getElementById("number").value = "";
-    // document.getElementById("address").value = "";
-    // var ele = document.getElementsByName("pay");
-    // for (var i = 0; i < ele.length; i++) ele[i].checked = false;
 
     // Print the receipt
     const receipt_formatted = `Here's your receipt:\n\nTagline: ${values[0]}\nColor: ${values[1]}\nSize: ${values[2]}\nQuantity: ${values[3]}\nName: ${values[4]}\nPhone Number: ${values[5]}\nAddress: ${values[6]}\nPayment Method: ${values[7]}\nTotal Cost: ₹ 500\n\nDate of receipt: ${todaysDate}`;
